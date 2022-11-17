@@ -1,0 +1,6 @@
+framework module HarryExtensionsCopy {
+  umbrella header "HarryExtensionsCopy-umbrella.h"
+
+  export *
+  module * { export * }
+}
