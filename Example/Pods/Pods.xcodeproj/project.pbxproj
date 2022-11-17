@@ -494,6 +494,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		079BE24E96184B72A01313A5969BF8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC144EAE3726BE6B0A2BB877DB4C66C7 /* HarryExtensionsCopy.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy.modulemap";
+				PRODUCT_MODULE_NAME = HarryExtensionsCopy;
+				PRODUCT_NAME = HarryExtensionsCopy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		294D82E2931A1989D14C21F16C0AE8B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 068D59DEA6846BC0EDC0C4BFE3551F9E /* Pods-HarryExtensionsCopy_Tests.debug.xcconfig */;
@@ -561,37 +593,6 @@
 			};
 			name = Release;
 		};
-		5956E8D9E2E7AAE370C85798CFC343ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9FC063FB84032417E572AFFAAF0C5AF /* HarryExtensionsCopy.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy.modulemap";
-				PRODUCT_MODULE_NAME = HarryExtensionsCopy;
-				PRODUCT_NAME = HarryExtensionsCopy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		60A29838BAA8B54418A8B0521501BAED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02DD88DFFA04D62A275EC21316611D9E /* Pods-HarryExtensionsCopy_Example.debug.xcconfig */;
@@ -624,38 +625,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		77B0367CE2996773CB4D45968D664F3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC144EAE3726BE6B0A2BB877DB4C66C7 /* HarryExtensionsCopy.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy.modulemap";
-				PRODUCT_MODULE_NAME = HarryExtensionsCopy;
-				PRODUCT_NAME = HarryExtensionsCopy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		796F6BDD5AC184861B4B3B5F0045B573 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -753,6 +722,37 @@
 			};
 			name = Release;
 		};
+		817C369EBFBBC6C488F3F9D1FFE648B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FC063FB84032417E572AFFAAF0C5AF /* HarryExtensionsCopy.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HarryExtensionsCopy/HarryExtensionsCopy.modulemap";
+				PRODUCT_MODULE_NAME = HarryExtensionsCopy;
+				PRODUCT_NAME = HarryExtensionsCopy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -825,8 +825,8 @@
 		1428302BDA08EEDB5CE9299E3525FE48 /* Build configuration list for PBXNativeTarget "HarryExtensionsCopy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5956E8D9E2E7AAE370C85798CFC343ED /* Debug */,
-				77B0367CE2996773CB4D45968D664F3B /* Release */,
+				817C369EBFBBC6C488F3F9D1FFE648B4 /* Debug */,
+				079BE24E96184B72A01313A5969BF8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
