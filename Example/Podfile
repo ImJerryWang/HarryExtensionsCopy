@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HarryExtensionsCopy_Example' do
+  pod 'HarryExtensionsCopy', :path => '../'
+
+  target 'HarryExtensionsCopy_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
